@@ -18,3 +18,17 @@ x=x.lower()
 print(x)
 x=x.capitalize()
 print(x)
+
+string_two="Hello World"
+x=string_two.split()
+print(x)
+
+
+x=string_two.split('o')
+print(x)
+
+x='item One:{} and item two:{}'.format('dog','cat')
+print(x)
+
+x='item One:{b} and item two:{a}'.format(a='dog',b='cat')
+print(x)
