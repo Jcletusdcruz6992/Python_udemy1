@@ -1,0 +1,15 @@
+my_dict={"key1":"James",'key2':'Cletus'}
+print(my_dict)
+print(my_dict["key1"])
+print(my_dict["key2"])
+my_stuff={'key1':12,'key2':'jame','key3':{'23':[1,2,'grabMe']}}
+print(my_stuff['key3']['23'])
+print(my_stuff['key3']['23'][2].upper())
+my_food={'lunch':'biriyani','dinner':'vegetable'}
+print(my_food)
+print(my_food['lunch'])
+my_food['lunch']='dosa'
+print(my_food['lunch'])
+print(my_food)
+my_food['bfast']='chicken'
+print(my_food)

@@ -1,0 +1,9 @@
+t=(1,3,5)
+print(t)
+print(t[0])
+m=('t',3,True)
+print(m)
+n=['t',3,True]
+print(n)
+n[0]='p'
+print(n)
